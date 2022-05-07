@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "subsocial-chains-status",
+  "version": "1.0.0",
+  "author": "mojtabast",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "yarn workspace app dev",
+    "build": "yarn workspace app next build",
+    "start": "yarn workspace app next start",
+    "postinstall": "yarn workspace components build"
+  },
+  "resolutions": {
+    "typescript": "^4.6.4"
+  }
+}

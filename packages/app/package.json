@@ -1,0 +1,29 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "yarn workspace components build"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.1",
+    "@sloth-system/props": "^0.0.3",
+    "@sloth-system/styled-utils": "^0.0.4",
+    "components": "link:../components",
+    "copy-to-clipboard": "^3.3.1",
+    "next": "12.1.5",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-loader-spinner": "^6.0.0-0",
+    "react-redux": "^8.0.1",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.5"
+  }
+}
