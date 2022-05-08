@@ -7,7 +7,7 @@ A client for showing and checking active chains for Subsocial.
 - 🤖 **Auto Refresh:** Configurable time for auto-refresh. *First, get visible chains (inside the viewport) then will get other chains by scrolling and entering the viewport.* Default: Every 5 Minutes.
 - 👀 **Watch mode:** In addition to auto-refresh, we can configure time and duration for checking chains separately. For example, by configuring duration to 3 minutes, visibile chains (in the viewport) will be checked every 3 minutes when the user is scrolling the list.  
 - 🔁 **Recoverable Errors:** If any request fails, can be retried and triggered manually by the user in UI.  
-- 🚀 **Design System:** Separating basic components from the app and it can be published as npm packages or showcase the components by using Storybook.
+- 🚀 **Design System:** Separating basic components from the app and it can be published as npm packages or showcase the components by using Storybook. [Check it out!](https://subsocial-components.vercel.app/)
 - 💅 **Theme:** Using and supporting the theme so it can be easily updated and also can adding dark theme in future.
 
 ## Quick Start
