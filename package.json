@@ -9,8 +9,8 @@
   ],
   "scripts": {
     "dev": "yarn workspace app dev",
-    "build": "yarn workspace app next build",
-    "start": "yarn workspace app next start",
+    "build": "yarn workspace app build",
+    "start": "yarn workspace app start",
     "postinstall": "yarn workspace components build"
   },
   "resolutions": {
